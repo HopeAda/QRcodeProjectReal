@@ -1,0 +1,67 @@
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Lightgray: hsl(212, 45%, 89%);
+  --Grayishblue: hsl(220, 15%, 55%);
+  --Darkblue: hsl(218, 44%, 22%);
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.outfit-<uniquifier > {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--Lightgray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  font-family: "Outfit", sans-serif;
+}
+
+p {
+  font-size: 1.5rem;
+  color: var(--Grayishblue);
+  margin: 1rem 1rem 4rem 1rem;
+  padding: 0 1rem;
+}
+
+h4 {
+  font-size: 2rem;
+  color: var(--Darkblue);
+  margin: 1rem 1rem;
+}
+
+img {
+  border-radius: 10px;
+  width: 25rem;
+  height: 25rem;
+  overflow: hidden;
+  margin: 2rem;
+}
+
+.container {
+  border-radius: 20px;
+  width: 29rem;
+  height: auto;
+  background-color: var(--White);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
